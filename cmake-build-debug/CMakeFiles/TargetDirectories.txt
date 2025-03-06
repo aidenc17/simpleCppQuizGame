@@ -1,0 +1,3 @@
+/Users/aidencox/git/cppQuizGame/cmake-build-debug/CMakeFiles/cppQuizGame.dir
+/Users/aidencox/git/cppQuizGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aidencox/git/cppQuizGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
