@@ -26,7 +26,27 @@ int main() {
         for (int j = 0; j < sizeof(options[i])/sizeof(options[i][0]); j++) {
             std::cout << options[i][j] << '\n';
         }
+
+        std::cin >> guess;
+        guess = toupper(guess);
+
+        if (guess == answerKey[i]) {
+            std::cout << "CORRECT\n";
+            score++;
+        }else {
+            std::cout << "WRONG\n";
+            std::cout << "Answer is: " << answerKey[i] << "\n";
+
+        }
     }
+    std::cout << "**********************************\n";
+    std:: cout << "*            RESULTS             *\n";
+    std::cout << "**********************************\n";
+    std::cout << "Correct guesses: " << score << '\n';
+    std::cout << "Questions: 4" << '\n';
+    std::cout << "Score: " << (score/(double)size)*100 << "%\n";
+
+
 return 0;
 
 }
